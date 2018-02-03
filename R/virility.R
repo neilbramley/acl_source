@@ -8,9 +8,7 @@
 #' @examples
 #' virility(matrix(c(0,1,1,0,0,0,0,0,0),3,3, byrow=T))
 
-virility <-
-function(graph)
-{
+virility <-function(graph) {
   
   parents<-children<-rep(0, nrow(graph))
   
